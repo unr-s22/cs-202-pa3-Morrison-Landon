@@ -25,5 +25,6 @@ public:
 	//operator overloads: <<
 	friend std::ostream &operator << (std::ostream &os, const Money &money);
 
+    ~Money();
 };
 #endif //MONEY_H

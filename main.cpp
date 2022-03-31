@@ -1,11 +1,11 @@
 #include <iostream>
 #include <iomanip>
-#include "Money.h"
-
+#include "Account.cpp"
 
 
 int main() {
 	bool eval = true;
+//  Account Obj;
 	//constant amounts to be deposited/withdrawn later
 	Money initMoney(300,23);
 	Money a(200,0);
@@ -48,7 +48,7 @@ int main() {
 	std::cout << b <<" <= "<< b <<" is "<< (b <= b) << std::endl;
 	std::cout << b <<" >= "<< b <<" is "<< (b >= b) << std::endl;
 	std::cout << b <<" != "<< b <<" is "<< (b != b) << std::endl;
-	std::cout << b <<" == "<< b <<" is "<< (b == b) << std::endl<<std::endl;;
+	std::cout << b <<" == "<< b <<" is "<< (b == b) << std::endl<<std::endl;
 
 	std::cout << "When a is greater than b:" << std::endl;
 	std::cout << b <<" >  "<< a <<" is "<< (b >  a) << std::endl;
@@ -56,7 +56,7 @@ int main() {
 	std::cout << b <<" <= "<< a <<" is "<< (b <= a) << std::endl;
 	std::cout << b <<" >= "<< a <<" is "<< (b >= a) << std::endl;
 	std::cout << b <<" != "<< a <<" is "<< (b != a) << std::endl;
-	std::cout << b <<" == "<< a <<" is "<< (b == a) << std::endl<<std::endl;;
+	std::cout << b <<" == "<< a <<" is "<< (b == a) << std::endl<<std::endl;
 
 
 
